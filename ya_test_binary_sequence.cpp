@@ -38,7 +38,7 @@ int main()
     else{
       if(iCurr > iValMax )
         iValMax = iCurr;
-      iCurr = 0;  // to count the next sequence sequence
+      iCurr = 0;  // to count the next sequence
     }
   }
   if(iCurr > iValMax )  // if one is in the last position
