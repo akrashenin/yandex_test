@@ -74,6 +74,11 @@ int main()
       for(int ind = 1; ind <= (strBeg.length()/2 - 1); ind++)
       {
         strBegShort = iter->getMinShortStr(ind);
+        if(!strBegShort.compare(strBeg))
+        {
+          vecOut.push_back(strBegShort);
+          break;
+        }
         fFind = false;
         for(iterIn = vec.begin(); iterIn < vec.end(); iterIn++)
         {
