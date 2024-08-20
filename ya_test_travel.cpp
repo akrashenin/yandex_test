@@ -1,9 +1,8 @@
 /*
-¬ постановке задачи неточность, так как не определено, что такое дорога.
-≈сли дорога - это путь от заправки до заправки то, это одно условие задачи.
-≈сли дорога - это путь от города до города то, это другое условие задачи. (–ешена задача с этим условием).
---
-ѕри сборке в release мой код весит 18944 байт.
+There is an inaccuracy in the problem statement, since it is not defined what a road is.
+If a road is a path from a gas station to a gas station, then this is one condition of the problem.
+If a road is a path from a city to a city, then this is another condition of the problem. (The problem with this condition has been solved)/
+The size of the executable code is is 18944 bytes.
 */
 #include <iostream>
 #include <fstream>
